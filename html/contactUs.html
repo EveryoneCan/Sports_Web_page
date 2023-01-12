@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    
+    <title>Cricket World</title>
+				<link rel="icon" type="image/x-icon" href="../images/logo.ico">
+    <link rel="stylesheet" href="../css/contactUs.css">
+    <link rel="stylesheet" href="../css/Header.css">
+    <link rel="stylesheet" href="../css/Navigation.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    
+</head>
+
+<body>
+   <header>
+        <div class="container2">
+            <ul class="nav3" >
+                <li class="box1"><img class="logo" src="../images/logo.jpeg"></li>
+                <li class="box2">CRICKET WORLD</li>
+                <li></li>
+            
+            </ul>
+        </div>
+        <div class="container">
+            <ul class="nav2" >
+                <li><a href="home.html" target="_self" >Home</a></li>
+                <li><a href="slide.html" >Cricket Teams</a></li>
+                <li><a href="buyProductpg.html" >Store</a></li>
+                <li><a href="QuizMain.html" >Quiz</a></li>
+                <li><a href="site.html" >Site Map</a></li>
+                <li><a href="AboutUs.html" >About</a></li>
+                <li><a href="contactUs.html" target="_self" >Contact Us</a></li>
+                <li><a href="Main.html" >cricketers</a></li>
+            </ul>
+        </div>
+
+   </header>   
+    <section>
+
+        <div class="containerf">
+           
+
+                <div class="box" >
+                    <h1>Contact US</h1>
+
+                    <div class="qbox">
+                        <div>
+                            <h2>Confirmation</h2>
+                            <div id="details" class="details"></div>
+                        </div>
+                        <div id="confirm">
+                            <table>
+                                <tr>
+                                    <td><a class="button1" id="editBtn" onclick="editIt()">Edit</a></td>
+                                    <td><a class="button1" id="sendBtn" onclick="sendIt()">Send</a></td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+
+                    <div class="qbox">
+                        <h2>Message Sent</h2>
+                        <div class="details">Thank You!</div>
+                        <a class="button1" id="okBtn" onclick="okButton()">OK</a>
+                    </div>
+
+
+                    <form id="form" class="form" onsubmit="return validation()">
+                        
+                        
+                        <div class="input-box">
+                            <span class="input-title">First Name:</span><br>
+                                <input type="text" name="fName" id="fName" placeholder="First Name" ><br><br>
+                                <div class="err"></div>
+                            </div>
+                       <div class="input-box">
+                           <span class="input-title">Last Name:</span><br>
+                           <input type="text" name="lName" id="lName" placeholder="Last Name" ><br><br>
+                           <div class="err"></div>
+                        </div>
+
+                        <div class="input-box">
+                            <span class="input-title">Address:</span><br>
+                            <input type="text" name="addr" id="addr" placeholder="enter your address" ><br><br>
+                            <div class="err"></div>
+                        </div>
+
+                        <div class="input-box">
+                            <span class="input-title">Contact Number:</span></span><br>
+                            <input type="text" name="contact" id="contact" placeholder="07#-#######" ><br><br>
+                            <div class="err"></div>
+                        </div>
+
+                        <div class="input-box">
+                            <span class="input-title">Email:</span><br>
+                            <input type="text" name="email" id="email" placeholder="abc@gmail.com"  ><br><br>
+                            <div class="err"></div>
+                        </div>
+
+                        <div class="input-box">	
+                            <span class="details">Subject:</span><br>
+                            <select id="subject" name="subject" id="subject">
+                            <option value=""></option>
+                            <option value="Delivery issues">Delivery issues</option>
+                            <option value="Product issues">Product issues</option>
+                            <option value="Technical issues">Technical issues</option>
+                            <option value="Other">Other</option>
+                             </select><br/><br/>
+                             <div class="err"></div>
+                        </div>
+
+                        
+
+                        <div class="input-box">
+                            <textarea id="message" placeholder="Enter Your Address..." class=""></textarea>
+                            <div class="err"></div>
+
+                        </div>
+                        
+                        <div class="button2">
+                            <button type="submit" id="subBt">Submit</button>
+                        </div>
+                    </form>
+
+                </div>
+           
+        </div>
+    </section>
+   
+ 
+    <script type="text/javascript" src="../javascript/contactUs.js"></script>
+
+    <footer>
+
+        <div class="footer">
+            <div class="inner-footer">
+                <div class="editor">
+                    <a href="st2.html">Editor Page</a>
+                    
+        
+                </div>
+          
+    
+    
+                <div class="footer-items">
+                    <img src="logo.png" height="50" alt="">
+                </div>
+    
+                <div class="footer-items">
+                    <h2 class="head">Quick Links</h2>
+                        <div class="border"></div>
+                        <ul>
+                            <a href="../html/home.html"><li>Home</li></a>
+                            <a href="../html/contactUs.html"> <li>Contact Us</li></a>
+                            <a href="../html/AboutUs.html"><li>About Us</li></a>
+                        
+                        </ul>
+                </div>
+    
+                <div class="footer-items">
+                    <h2 class="head">Legal</h2>
+                        <div class="border"></div>
+                        <ul>
+                            <a href="../html/tac.html"><li>Privacy Policy</li></a>
+                            <a href="../html/tac.html"><li>Terms and Condition</li></a>
+                            <a href="../html/tac.html"><li>Contract</li></a>
+                        </ul>
+                </div>
+    
+                <div class="footer-items">
+                    <h2 class="head">Contact US</h2>
+                        <div class="border"></div>
+    
+                        <div class="contact">
+                        <div class="place">
+                            <img src="location.png"  alt=""> 
+                            <span>Cricket World Galle Road Colombo 06</span>
+                         </div>
+             
+                         <div class="phone">
+                            <img src="mobile.png"  alt=""> 
+                            <span>0770555586</span>
+                         </div>
+             
+                         <div class="mail">
+                         <a href="cricketworld@gmail.com">cricketworld@gmail.com</a>
+                         </div>
+                        </div>
+                    
+                </div>
+    
+    
+            <div class="footer-bottom">
+                <ul>
+                    <div class="social">
+                        <a href="https://www.facebook.com"><img src="../images/facebook.png" height="25" width="25t"></a>
+                        <a href="https://www.instagram.com"><img src="../images/ig.png" height="25" width="25t"></a>
+                        <a href="https://www.youtube.com"><img src="../images/yt.png"  height="25" width="25t"></a>
+                        <a href="https://accounts.snapchat.com"><img src="../images/snap.png"  height="25" width="25t"></a>
+                        <a href="https://www.whatsapp.com"><img src="../images/whatsapp.png" height="25" width="25t"></a>
+                    </div>
+                </ul>
+                
+            </div>
+            
+    
+    
+            </div>
+        </div>
+    
+                
+        
+    
+     </footer>
+    
+</body>
+
+</html>

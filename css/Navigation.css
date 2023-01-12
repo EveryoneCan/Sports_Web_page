@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Rubik+Moonrocks&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500;600;900&display=swap');
+.nav2{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    justify-content: space-between;
+    background-color:black;
+    border: 1px solid;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 20px;
+    color: rgb(13, 17, 19);
+    margin-top: 0;
+   
+}
+.container{
+    position: sticky;
+    right:20px;
+    left: 20px;
+    top: 0;
+}
+
+
+.container ul li{
+    padding: 5px;
+}
+.container ul li a::after{
+     content: '';
+     width: 0%;
+     height: 3px;
+     background: black;
+     display: block;
+     margin: auto;
+     transition: 0.5s;
+}
+.container ul li a:hover::after{
+
+    width: 100%;
+}
+.container ul li:hover{
+    background-color: gray;
+    transition: 1s;
+}
+.container ul li a{
+    text-decoration: none;
+    color: rgb(255, 251, 0);
+}

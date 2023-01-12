@@ -1,0 +1,283 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'orbitron', sans-serif;
+    background-color:black;
+}
+.item_img{
+	width:250px;
+	height:250px;
+}
+
+/* Utility stylings */
+
+
+.sm-title{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0.6rem 0;
+    text-transform: capitalize;
+}
+.lg-title{
+    font-size:60px;
+    font-weight: 500;
+    text-align: center;
+	text-shadow:2px 2px yellow;
+	color:yellow;
+    padding: 1.3rem 0;
+    opacity: 0.9;
+}
+.sm-title{
+    font-weight: 300;
+    font-size: 1rem;
+    text-transform: uppercase;
+}
+
+
+/* product section */
+.products{
+    padding: 3.2rem 0;
+}
+.products .text-light{
+    text-align: center;
+    width: 80%;
+    margin: 0.9rem auto;
+}
+.product{
+    margin: 3rem;
+    position: relative;
+    background-color: black;
+	border-style: solid;
+	border-color: yellow;
+}
+.product-content{
+    background:black;
+    padding: 3rem 0.5rem 1.5rem 0.5rem;
+
+}
+.product-img{
+    background:black;
+    width: 270px;
+    height: 300px;
+    margin: 0 auto;
+}
+
+.btn_1{
+    background: transparent;
+    justify-content: center;
+    border: 1px solid black;
+    padding: 15px 0px 15px 15px;
+    width: 100%;
+    font-family: inherit;
+    text-transform: uppercase;
+    cursor: pointer;
+    border: none;
+    transition: all 0.6s ease;
+}
+.btn_1{
+    background:black;
+    color: yellow;
+}
+.btn_1:hover{
+    background:yellow;
+	color: black;
+}
+
+.product-info, p, .product_name{
+    background: black;
+    padding: 2px 3px 5px 18px;
+}
+.product-info-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+.product-name, h4{
+    color: white;
+    display: block;
+    text-decoration: none;
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.product_price{
+    text-align: center;
+    padding-top: 0.6rem;
+    padding-right: 0.6rem;
+    display: inline-block;
+    color: grey;
+}
+
+/* Media Queries */
+@media screen and (min-width: 992px){
+    .product-items{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media screen and (min-width: 1200px){
+    .product-items{
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .product{
+        margin-right: 1rem;
+        margin-left: 1rem;
+    }
+}
+
+@media screen and (min-width: 1336px){
+    .product-items{
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+/* buy product css part end*/
+
+/* Cart items */
+
+.small_container {
+  max-width: 100%;
+  margin: auto;
+  padding-left: 85px;
+  padding-right: 15px;
+}
+
+.cart_product_name{
+    color: yellow;
+    font-size: 19px;
+	background-color:black;
+}
+.cart_item_price{
+    color: grey;
+    font-size: 15px;
+    font-weight: 900;
+}
+.cart_item_quantity{
+    color: black;
+	background-color:yellow;  
+}
+.product_sub_price{
+	color:yellow
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th {
+  text-align: left;
+  padding:15px 15px 15px 15px;
+  color: black;
+  background-color: yellow;
+  font-weight: normal;
+  font-size: 25px;
+  
+}
+td {
+  padding:  10px 25px 25px 25px;
+  width: 60%;
+}
+td + td {
+  width: auto;
+}
+
+td input {
+  width: 40px;
+  height: 30px;
+  padding: 5px;
+}
+td a {
+  font-size: 12px;
+}
+td img {
+  width: 100px;
+  height: 100px;
+  margin-right: 50px;
+}
+.total_cost {
+  justify-content: flex-end;
+  display: flex;
+  background-color: yellow;
+  color: black;
+  font-size:20px;
+  border-radius: 50px;
+}
+.total_cost table {
+  width: 100%;
+  max-width: 350px;
+}
+
+td:last-child {
+  text-align: right;
+}
+
+.btn_remove {
+    background: yellow;
+	color:black;
+    box-shadow: 0px 4px 4px yellow;
+    border: 0;
+    border-radius: 50px;
+    width: 60px;
+    font-size: 12px;
+    text-align: center;
+    padding: 10px;
+    margin: 2% 5% 0 5%;
+    font-weight: 700;
+    opacity: 0.9;
+    transition: transform 0.5s, opacity 0.5s;
+}
+
+.btn_remove:hover{
+    background:black;
+	color: yellow;
+}
+/* Form  */
+.user_details{
+	color:yellow;
+}
+.user_details input[type="text"] {
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: none;
+  background-color: black;
+  color: yellow;
+  border-radius: 50px;
+  transition: width 0.4s ease-in-out;
+  border-style: solid;
+  border-color: yellow;
+    
+}
+
+.formin input[type="text"]:focus {
+	width: 100%;
+	background-color: yellow;
+	color:black;
+}
+    
+.button{
+    background: yellow;
+	color:black;
+    box-shadow: 0px 4px 4px yellow;
+    border: 0;
+    border-radius: 10px;
+    width: 120px;
+    font-size: 16px;
+    text-align: center;
+    padding: 10px;
+    margin: 2% 5% 0 5%;
+    font-weight: 700;
+    opacity: 0.9;
+    transition: transform 0.5s, opacity 0.5s;
+
+}
+.button:hover{
+    background:black;
+	color: yellow;
+}
+
+

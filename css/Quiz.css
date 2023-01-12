@@ -1,0 +1,142 @@
+/*Import font*/
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600;800&display=swap');
+
+/*Body image*/
+body {
+  background-image: url('../images/quizBackground.jpg');
+}
+
+/*Top button*/
+#topBtn {
+  position: fixed;
+  border: transparent;
+  background-color: transparent;  
+  width: 50px;
+  height: 100px;
+  bottom: 0;
+  top: 650px;
+  left:1450px;
+  right: 10px;
+}
+/*View mark button*/
+#markViewBtn {
+  left: 600px;
+  padding: 15px 25px;
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #145a76;
+  border-radius: 15px;
+  box-shadow: 0 9px rgb(171, 171, 171);
+}
+
+#markViewBtn:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+#markViewBtn {
+  position: absolute;
+  left: 100;
+  top: 100;
+  z-index: 1000;
+}
+#markViewBtn:hover {background-color: #321364
+}
+
+/*Make bigger radio buttons*/
+input[type=radio] {
+  transform: scale(2.0);
+}
+
+.container4 { 
+  height: 200px;
+  position: relative;
+}
+
+.ansDisplayPlace {
+  text-align:right;
+  position: absolute;
+  top: 0%;
+  right: 10%;
+  -ms-transform: translateY(50%);
+  transform: translateY(50%);
+  font-size: 20px;
+}
+
+/*Image to the quiz boxes*/ 
+#quiz {
+  background-image: url(../images/boxImage.jpg);
+  width: 1380px;
+  border: 15px solid rgb(248, 248, 146);
+  padding: 50px;
+  margin: 20px;
+  box-shadow: 10px 10px rgb(221, 255, 0);
+  border-radius: 25px;
+  padding: 20px; 
+  height: 220px; 
+}
+
+/*Title*/
+.title{color: yellow;
+text-align: center;
+font-size: 50px;
+text-shadow: 5px 5px black;
+font-family:'Orbitron', sans-serif;
+}
+
+h3{color: black;
+}
+
+/*Change question letter size*/
+div.question{
+  font-size: 25px;
+}
+
+.totalCount{color: aliceblue;
+text-align: center;
+}
+
+.getTime{color: aliceblue;
+  text-align: center;
+}
+
+/*Change answer letter size*/
+.answer{
+  font-size: 22px;
+}
+
+/*Time remaining box*/
+#timeRemain {
+  position: fixed;
+  border: 6px solid rgb(34, 122, 217);
+  background-color: black;  
+  width: 170px;
+  height: 120px;
+  bottom: 250px;
+  left: 1320px;
+  box-shadow: 10px 10px rgb(46, 16, 117);
+  border-radius: 100px / 50px;
+}
+
+#ans {
+  position: absolute;
+  left: 100;
+  top:100;
+ z-index: 1001;
+}
+
+.text{
+  text-align: center;
+  color: white;
+}
+
+#timer60Sec{
+  text-align: center;
+ font-size: 40px;
+  color: white;
+}
+

@@ -1,0 +1,50 @@
+body{
+	background-color:black;
+	
+}
+.logo_img{
+	width:250spx;
+	height:250px;
+}
+.cricket-world{
+	text-decoration: overline underline;
+	text-align: left;
+	font-family: "Orbitron";
+	font-size: 35px;
+	color:yellow;
+
+	
+}
+
+.group-num{
+
+	font-family: "Helvetica";
+	font-size: 20px;
+	color:black;
+	text-shadow: 4px 4px yellow;
+	font-weight: bold;
+
+}
+
+.name{
+	font-family: "Georgia";
+	font-weight: bold;
+	margin:0px 50px  ;
+	font-size: 25px;
+	color:yellow;	
+}
+
+ul{
+	list-style-type: none;
+}
+
+/* Style the video: 100% width and height to cover the entire window */
+#myVideo {
+  position:fixed;
+  margin-left:25px;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+

@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cricket World</title>
+    <link rel="icon" type="image/x-icon" href="../images/logo.ico">
+    <link rel="stylesheet" href="../css/side.css">
+    <link rel="stylesheet" href="../css/Header.css">
+    <link rel="stylesheet" href="../css/Navigation.css">
+    <link rel="stylesheet" href="../css/footer.css">
+
+</head>
+
+
+<body>
+    <header>
+        <div class="container2">
+            <ul class="nav3" >
+                <li class="box1"><img class="logo" src="../images/logo.jpeg" ></li>
+                <li class="box2">CRICKET WORLD</li>
+                <li></li>
+            
+            </ul>
+        </div>
+        <div class="container">
+            <ul class="nav2" >
+                <li><a href="home.html" target="_self"  >Home</a></li>
+                <li><a href="slide.html" >Cricket Teams</a></li>
+                <li><a href="buyProductpg.html" >Store</a></li>
+                <li><a href="QuizMain.html" >Quiz</a></li>
+                <li><a href="site.html" >Site Map</a></li>
+                <li><a href="AboutUs.html" >About</a></li>
+                <li><a href="contactUs.html" target="_self"  >Contact Us</a></li>
+                <li><a href="Main.html" >cricketers</a></li>
+            </ul>
+        </div>
+
+   </header>   
+
+<body>
+    <div class="header">
+      <h1>Cricket Teams</h1>
+    <table style="width:100%">
+      <tr>
+       <th>
+        Background Color
+        
+      <select  id="bgcolor" onchange="changeBgColor()">
+        <option value="White">White</option>
+        <option value="#17202A">Black</option>
+        <option value="orange ">Orange</option>
+        <option value="#90ee90 ">Green</option>
+        <option value="#ADD8E6">Blue</option>
+      </select></th>
+    
+        <th>
+        Font Colour
+      <select id="fontcolor" onchange="changeFontColor()">
+        <option value="Black">Black</option>
+        <option value="Red">Red</option>
+        <option value="orange">Orange</option>
+        <option value="Blue">Blue</option>
+      </select></th> 
+    
+    </table>
+    <section class="gallery-section" id="gallerys">
+        <div class="container">
+            <div class="row">
+            </div>
+            <div class="row">
+                <div class="gallery-item " onclick="openModal();currentSlide(1)">
+                    <div class="gallery-item-inner">
+                        <img src="../images/1.jpg" alt="service">
+                        <div class="fontcolor">
+                            <h4>India Cricket team</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <div class="gallery-item-inner" onclick="openModal();currentSlide(2)">
+                        <img src="../images/2.jpg" alt="service">
+                        <div class="fontcolor">
+                            <h4>England Cricket team</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <div class="gallery-item-inner" onclick="openModal();currentSlide(3)">
+                        <img src="../images/15.webp" alt="service">
+                        <div class="fontcolor">
+                            <h4>Pakistan Cricket team</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <div class="gallery-item-inner" onclick="openModal();currentSlide(4)">
+                        <img src="../images/4.webp" alt="service">
+                        <div class="fontcolor">
+                            <h4>South Africa Cricket team</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <div class="gallery-item-inner" onclick="openModal();currentSlide(5)">
+                        <img src="../images/5.jpg" alt="service">
+                        <div class="fontcolor">
+                            <h4>Australia Cricket team</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <div class="gallery-item-inner" onclick="openModal();currentSlide(6)">
+                        <img src="../images/6.jpg" alt="service">
+                        <div class="fontcolor">
+                            <h4>New Zealand Cricket team</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <div class="gallery-item-inner" onclick="openModal();currentSlide(7)">
+                        <img src="../images/7.jpg" alt="service">
+                        <div class="fontcolor">
+                            <h4>West Indies Cricket team</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <div class="gallery-item-inner" onclick="openModal();currentSlide(8)">
+                        <img src="../images/8.jpg" alt="service">
+                        <div class="fontcolor">
+                            <h4> Sri Lanka Cricket team</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <div class="gallery-item-inner" onclick="openModal();currentSlide(9)">
+                        <img src="../images/9.jpg" alt="service">
+                        <div class="fontcolor">
+                            <h4>Bangladesh Cricket team</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <div class="gallery-item-inner" onclick="openModal();currentSlide(10)">
+                        <img src="../images/10.jpg" alt="service">
+                        <div class="fontcolor">
+                            <h4>Afghanistan Cricket team</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <div class="gallery-item-inner" onclick="openModal();currentSlide(11)">
+                        <img src="../images/11.jpg" alt="service">
+                        <div class="fontcolor">
+                            <h4>UAE Cricket team</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <div class="gallery-item-inner" onclick="openModal();currentSlide(12)">
+                        <img src="../images/12.webp" alt="service">
+                        <div class="fontcolor">
+                            <h4>Zimbabwe Cricket team</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div id="myModal" class="modal">
+        <span class="close cursor" onclick="closeModal()">&times;</span>
+        <div class="modal-content">
+
+            <div class="mySlides">
+
+                <img src="../images/1.3.jpg" style="width:100%">
+                <p>Lorem 103 victories Head to head record. As of June 2022, 
+                    India has played 164 T20I matches resulting in 103 victories, 53 defeats,
+                     3 ties and 5 no results for an overall winning percentage of 66.67.</p>
+            </div>
+
+            <div class="mySlides">
+               
+                <img src="../images/2.1.webp" style="width:100%">
+                <p>They have appeared in the final of the Cricket World Cup four times, winning once in 2019;
+                     they have also finished as runners-up in two ICC Champions Trophies (2004 and 2013). 
+                    England have played 148 T20Is, winning 77. They won the ICC T20 World Cup in 2010, 
+                    and were runners-up in 2016..</p>
+            </div>
+
+            <div class="mySlides">
+                
+                <img src="../images/3.1.jpg" style="width:100%">
+                <p>117 The team has also played 190 Twenty20 Internationals, winning 117, losing 65 and tying 3.</p>
+            </div>
+
+            <div class="mySlides">
+                
+                <img src="../images/4.1.webp" style="width:100%">
+                <p>T20Is Played Won/Lost Total 152 87/62 (1 tie, 2 no results) This year 5 2/2 (0 tie, 1 no result).</p>
+            </div>
+
+            <div class="mySlides">
+                
+                <img src="../images/5.2.webp" style="width:100%">
+                <p>As of February 2022, Australia has played 158 T20I matches resulting in 82 victories, 70 defeats,
+                     3 ties and 3 no results for an overall winning percentage of 53.87.</p>
+            </div>
+
+            <div class="mySlides">
+                
+                <img src="../images/6.1.jpg" style="width:100%">
+                <p>As of 27 June 2022, New Zealand have played 1393 international matches,
+                     out of which they have won 541, lost 625, tied 15 and drew 168 matches while 44 matches ended up as no result.
+                     The team is ranked 3rd in Tests, 1st in ODIs and 4th in T20Is by the ICC..</p>
+            </div>
+            <div class="mySlides">
+                <img src="../images/7.1.jpeg" style="width:100%">
+                <p>The West Indies have won the ICC Cricket World Cup twice (1975 and 1979,
+                     when it was styled the Prudential Cup), the ICC T20 World Cup twice (2012 and 2016,
+                      when it was styled World Twenty20),
+                     the ICC Champions Trophy once (2004), the ICC Under 19 Cricket World Cup once (2016)</p>
+            </div>
+
+            <div class="mySlides">
+                
+                <img src="../images/8.1.jpg" style="width:100%">
+                <p> Cricket World Cup that they made their international debut. 
+                    They lost to the West Indies by 9 wickets.They did however turn heads at the same tournament
+                     with an excellent display in their match against Australia.
+                        Sri Lanka won the 1996 Cricket World Cup by defeating Australia
+                    . Sri Lanka won the 2014 ICC World Twenty20 by defeating India.</p>
+            </div>
+
+            <div class="mySlides">
+            
+                <img src="../images/9.1.jpg" style="width:100%">
+                <p>Bangladesh's major achievements include reaching the quarter-finals in 2015 ICC Cricket World Cup, 
+                    being runners up in three Asia Cup (in 2012, 2016 and 2018) and in 2018 Nidahas Trophy and winning 2019
+                     Ireland Tri-Nation Series which was Bangladesh's first ever multi-team ODI tournament final win.</p>
+            </div>
+            <div class="mySlides">
+            
+                <img src="../images/10.1.jpg" style="width:100%">
+                <p>As of November 2021, Afghanistan has played 89 T20I matches resulting in 60 victories,
+                     28 defeats, 1 tie and 0 no results for an overall winning percentage of 67.97.</p>
+            </div>
+
+            <div class="mySlides">
+            
+                <img src="../images/11.1.jpg" style="width:100%">
+                <p>The UAE was first granted T20I status in January 2014,
+                     by virtue of being granted One Day International (ODI) status.
+                      This was a result of their performance at the 2014 World Cup Qualifier,
+                       where they placed second to qualify for the 2015 World Cup.
+                        The team had made its ODI debut as early as 1994, against India,
+                     but received ODI status on a non-temporary basis only in 2014.</p>
+            </div>
+
+            <div class="mySlides">
+            
+                <img src="../images/12.1.webp" style="width:100%">
+                <p>The Zimbabwe national cricket team, also known as Chevrons represents Zimbabwe in men's
+                     international cricket and is administered by Zimbabwe Cricket (formerly known as the Zimbabwe Cricket Union).
+                      Zimbabwe has been a Full Member of the International Cricket Council (ICC) since 1992.</p>
+            </div>
+
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+            <div class="caption-container">
+                <p id="caption"></p>
+            </div>
+        </div>
+    </div>
+<script src="../javascript/side.js"></script>
+<footer>
+
+    <div class="footer">
+      <div class="inner-footer">
+        <div class="footer">
+            <div class="inner-footer">
+                <div class="editor">
+                    <a href="st4.html">Editor Page</a>
+                    
+        
+                </div>
+          
+  
+  
+        <div class="footer-items">
+          <img src="logo.png" height="50" alt="">
+        </div>
+  
+        <div class="footer-items">
+          <h2 class="head">Quick Links</h2>
+            <div class="border"></div>
+            <ul>
+                          <a href="../html/home.html"><li>Home</li></a>
+              <a href="../html/contactUs.html"> <li>Contact Us</li></a>
+              <a href="../html/AboutUs.html"><li>About Us</li></a>
+            
+            </ul>
+        </div>
+  
+        <div class="footer-items">
+          <h2 class="head">Legal</h2>
+            <div class="border"></div>
+            <ul>
+              <a href="../html/tac.html"><li>Privacy Policy</li></a>
+              <a href="../html/tac.html"><li>Terms and Condition</li></a>
+              <a href="../html/tac.html"><li>Contract</li></a>
+            </ul>
+        </div>
+  
+        <div class="footer-items">
+          <h2 class="head">Contact US</h2>
+            <div class="border"></div>
+  
+            <div class="contact">
+            <div class="place">
+              <img src="location.png"  alt=""> 
+              <span>Cricket World Galle Road Colombo 06</span>
+             </div>
+       
+             <div class="phone">
+              <img src="mobile.png"  alt=""> 
+              <span>0770555586</span>
+             </div>
+       
+             <div class="mail">
+             <a href="cricketworld@gmail.com">cricketworld@gmail.com</a>
+             </div>
+            </div>
+          
+          </div>
+  
+  
+      <div class="footer-bottom">
+        <ul>
+          <div class="social">
+            <a href="https://www.facebook.com"><img src="../images/facebook.png" height="25" width="25t"></a>
+            <a href="https://www.instagram.com"><img src="../images/ig.png" height="25" width="25t"></a>
+            <a href="https://www.youtube.com"><img src="../images/yt.png"  height="25" width="25t"></a>
+            <a href="https://accounts.snapchat.com"><img src="../images/snap.png"  height="25" width="25t"></a>
+            <a href="https://www.whatsapp.com"><img src="../images/whatsapp.png" height="25" width="25t"></a>
+          </div>
+        </ul>
+        
+      </div>
+      
+  
+  
+        </div>
+      </div>
+  
+        
+    
+  
+   </footer>
+</body>
+
+</html>

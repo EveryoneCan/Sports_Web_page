@@ -1,0 +1,79 @@
+/*Import font style*/
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600;800&display=swap');
+
+/*Title*/
+.maintitle{
+  font-family:'Orbitron', sans-serif;
+  font-size: 40px; 
+  color: yellow;
+  text-align: center;
+}
+
+/*Main button*/
+#mainbtns {
+  left: 1080px;
+  bottom: 170px;
+  padding: 15px 25px;
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #145a76;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px rgb(171, 171, 171);
+}
+
+#mainbtns:hover {background-color: #321364}
+
+#mainbts:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+#mainbtns {
+  position: absolute;
+  left: 100;
+  top: 100;
+  z-index: 1000;
+}
+
+/*Instruction box*/
+.container7 {
+    min-height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+.content7 {
+  top: 180px;
+  background-color: rgb(0, 0, 0);
+  width: 1200px;
+  border: 15px solid rgb(247, 247, 201);
+  padding: 50px;
+  margin: 20px;
+  box-shadow: 10px 10px rgb(193, 244, 7);
+  font-size: 40px;
+  border-radius: 25px;
+  padding: 20px; 
+  height: 450px;
+  position: absolute;
+  bottom: 0;
+  padding: 20px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/*Video*/
+#videoOne {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%; 
+  min-height: 100%;
+}

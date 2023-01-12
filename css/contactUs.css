@@ -1,0 +1,164 @@
+
+
+body {
+    background-image: url("../images/cric.jpg");
+    position: sticky;
+}
+.containerf{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.box{
+    background-color:rgb(228, 228, 21);
+    min-height: 600px;
+    width: 30%;
+    border: solid 3px black;
+    border-radius: 8px;
+}
+.button1{
+    color: yellow;
+}
+
+
+.box h1{
+    color: black;
+    text-align: center;
+    font-size: 50px;
+    text-transform: uppercase;
+    margin-top: 50px; 
+}
+
+.box .qbox{
+	display: none;
+    margin-top: 10%;
+    text-align: center;
+    
+}
+
+
+.box .form{
+	display: block;
+    margin-top: 10%;
+    text-align: center;
+}
+
+.box .form-hide{
+	display: none;
+}
+
+.box .input-box{
+    left: 5%;
+    
+}
+
+.box .field input,
+.box .field select,
+.box textarea{
+    background: #fff;
+    width: 80%;
+    border: solid 3px #000;
+    outline: none;
+    margin-bottom: 0;
+    
+}
+
+
+.box textarea{
+    height: 160px;
+    resize: none;
+    
+}
+
+.box .button2 button[type="submit"]{
+    margin-top: 5px;
+    padding: 15px;
+    width: 60%;
+    background: #000;
+    color: yellow;
+    font-size: 15px;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 5px;
+    cursor: pointer;
+    transition: all 0.1s ease-out;
+}
+
+.box .button2 button[type="submit"]:hover{
+    border: solid 3px #830092;
+    background: #212121;
+    color: #07b9ff;
+}
+
+.box .button2 button[type="submit"]:active{
+    border: solid 3px #830092;
+    background: #000;
+    color: yellow;
+}
+
+.box .err{
+    margin-top: 2px;
+    padding: 0px;
+    font-size: 12px;
+    color: #d50000;
+    transition: all 0.5s ease;
+}
+
+
+.box .popup{
+    display: block;
+    width: 450px;
+    min-height: 200px;
+    margin: auto;
+    border-radius: 20PX;
+    padding: 25px;
+    background: #000;
+}
+
+.box .popup h2{
+    margin: auto;
+    font-size: 30px;
+    color: yellow;
+}
+
+.popup .details{
+    margin: 20px 0 0;
+	text-align: left;
+    font-size: 15px;
+    color: yellow;
+}
+
+
+.box #confirm{
+	min-height: 60px;
+    margin-top: 15px;
+}
+
+.box #confirm table{
+    margin-top: 10px;
+    float: left;
+    width: 100%;
+    text-align: center;
+}
+
+.box #confirm table td{
+    padding:  0 20px;
+}
+
+.box #confirm a{
+    margin: auto;
+    text-decoration: none;
+    letter-spacing: 1px;
+    padding: 15px;
+	font-size: 20px;
+}
+
+.box .popuphide{
+    display: none;
+    opacity: 0;
+    transition: 0.5s;
+}
+input{
+    padding: 10px;
+}
